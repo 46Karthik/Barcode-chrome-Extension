@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Extension Popup</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/Jsbarcode.all.min.js"></script>
+    <script src="/popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <h1>Barcode</h1>
+    <p>Enter SKU:</p>
+    <input type="number" id="SKU">
+    <p>Enter product name:</p>
+    <input type="text" id="product name" >
+    <p>Enter Shop name:</p>
+    <input type="text" id="Shop Name">
+    <p>Enter Purchase Price:</p>
+    <input type="number" id="Purchase Price">
+    <p>Enter Selling Price:</p>
+    <input type="number" id="Selling Price">
+    <p>Enter the Encode:</p>
+    <input type="text" id="Encode">
+
+
+    <button id="submit-button">Submit</button>
+
+
+
+    <div id="product-name" ></div>
+    <svg id="barcode"></svg>
+    <div id="shop-Name"></div>
+    <div id="Price"></div>
+    <button id="print output">print output</button>
+    <!-- <div id="\"></div> -->
+  </body>
+</html>
